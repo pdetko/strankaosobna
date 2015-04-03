@@ -325,20 +325,20 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+.tabulka1 {
+  	width: 100%;
+  	-moz-animation: tabulka1 2s ease;
+  	-webkit-animation: tabulka1 2s ease;
 }
-.illustrator {
+.tabulka2 {
   	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
+  	-moz-animation: tabulka2 2s ease;
+  	-webkit-animation: tabulka2 2s ease;
 }
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
+.tabulka3 {
+  	width: 33%;
+  	-moz-animation: tabulka3 2s ease;
+  	-webkit-animation: tabulka3 2s ease;
 }
 .css {
   	width: 90%;
@@ -356,17 +356,17 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: jquery 2s ease;
 }
 
-@-moz-keyframes photoshop {
+@-moz-keyframes tabulka1 {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 100%;  }
 }
-@-moz-keyframes illustrator {
+@-moz-keyframes tabulka2 {
   0%   { width: 0px;  }
   100% { width: 55%;  }
 }
-@-moz-keyframes wordpress {
+@-moz-keyframes tabulka3 {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 33%;  }
 }
 @-moz-keyframes css {
   0%   { width: 0px;  }
@@ -381,17 +381,17 @@ ul#nav li.current a { color: #F06000; }
   100% { width: 50%;  }
 }
 
-@-webkit-keyframes photoshop {
+@-webkit-keyframes tabulka1 {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 100%;  }
 }
-@-webkit-keyframes illustrator {
+@-webkit-keyframes tabulka2 {
   0%   { width: 0px;  }
   100% { width: 55%;  }
 }
-@-webkit-keyframes wordpress {
+@-webkit-keyframes tabulka3 {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 33%;  }
 }
 @-webkit-keyframes css {
   0%   { width: 0px;  }
